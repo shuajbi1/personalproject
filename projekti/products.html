@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Produktet - Auto Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="produktet.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="car logo.avif" alt="Auto Shop Logo" />
+                <span class="page-title">Auto Shop</span>
+            </div>
+            <nav class="navbar">
+                <div class="nav-links">
+                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <a href="produktet.html" class="active"><i class="fas fa-car"></i> Produktet</a>
+                    <a href="about.html"><i class="fas fa-info-circle"></i> Rreth nesh</a>
+                    <a href="kontakt.html"><i class="fas fa-envelope"></i> Kontakt</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-banner">
+        <div class="hero-content">
+            <h1>Ekskluzive Premium</h1>
+            <p>Zbuloni koleksionin tonë të makinave të reja dhe të përdorura</p>
+            <a href="#produktet" class="hero-btn">Shiko Produktet</a>
+        </div>
+    </div>
+
+    <section class="products-section" id="produktet">
+        <div class="section-header">
+            <h1 class="section-title">Makina në Shitje</h1>
+            <div class="filter-options">
+                <select id="filter-price">
+                    <option value="">Filtro sipas çmimit</option>
+                    <option value="0-50000">Deri në €50,000</option>
+                    <option value="50000-100000">€50,000 - €100,000</option>
+                    <option value="100000">Mbi €100,000</option>
+                </select>
+                <select id="filter-brand">
+                    <option value="">Filtro sipas markës</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="tesla">Tesla</option>
+                    <option value="porsche">Porsche</option>
+                    <option value="ferrari">Ferrari</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card">
+                <div class="card-badge">E Re</div>
+                <img src="2024-audi-rs6-performance-motion-front-1669663114.jpg" alt="Audi RS6" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 3.6s 0-100km/h</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzinë</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>Audi RS6 Avant</h2>
+                    <p class="price">€85,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-badge">Best Seller</div>
+                <img src="2025-bmw-m4-coupe-front-three-quarters-motion-65b935ea5dde6.avif" alt="BMW M4" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 3.8s 0-100km/h</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzinë</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>BMW M4 Competition</h2>
+                    <p class="price">€95,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img src="Mercedes-Benz_W206_IMG_6380.jpg" alt="Mercedes C-Class" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 4.1s 0-100km/h</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzinë</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>Mercedes-AMG C 63 S</h2>
+                    <p class="price">€105,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-badge">Eco Friendly</div>
+                <img src="Model3-Buyers-Guide.avif" alt="Tesla Model 3" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 3.1s 0-100km/h</span>
+                        <span><i class="fas fa-bolt"></i> Elektrike</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>Tesla Model 3 Performance</h2>
+                    <p class="price">€55,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-badge">Limited</div>
+                <img src="blobid0.webp" alt="Porsche 911" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 2.7s 0-100km/h</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzinë</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>Porsche 911 Turbo S</h2>
+                    <p class="price">€220,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-badge">Exclusive</div>
+                <img src="driven-ferrari-488gtb-superJumbo.jpg" alt="Ferrari 488 GTB" />
+                <div class="card-content">
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 3.0s 0-100km/h</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzinë</span>
+                        <span><i class="fas fa-cogs"></i> Automatik</span>
+                    </div>
+                    <h2>Ferrari 488 GTB</h2>
+                    <p class="price">€320,000</p>
+                    <div class="card-actions">
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                        <a href="blej.html" class="btn">Blej Tani</a>
+                        <button class="details-btn">Detajet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="page-nav disabled"><i class="fas fa-chevron-left"></i></a>
+            <a href="#" class="page-number active">1</a>
+            <a href="#" class="page-number">2</a>
+            <a href="#" class="page-number">3</a>
+            <a href="#" class="page-nav"><i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Garancion 2 Vjeçar</h3>
+            <p>Garancion i plotë për çdo makinë të re</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-truck"></i>
+            <h3>Transport Falas</h3>
+            <p>Transport i makinave në të gjithë vendin</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-undo"></i>
+            <h3>Kthim 7 Ditësh</h3>
+            <p>Mundësi kthimi brenda 7 ditëve</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-headset"></i>
+            <h3>Asistencë 24/7</h3>
+            <p>Ndihmë profesionale gjatë gjithë kohës</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Auto Shop</h4>
+                <p>Dyqani më i besueshëm për shitjen e makinave të reja dhe të përdorura në Shqipëri.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Linqe të Shpejta</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produktet.html">Produktet</a></li>
+                    <li><a href="about.html">Rreth nesh</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="terms.html">Kushtet e Përdorimit</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Rr. "Deshmoret e Kombit", Tirana</li>
+                    <li><i class="fas fa-phone"></i> +355 4X XXX XXXX</li>
+                    <li><i class="fas fa-envelope"></i> info@autoshop.com</li>
+                    <li><i class="fas fa-clock"></i> Hënë-Shtunë: 08:00-20:00</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Regjistrohu për ofertat tona speciale</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Emaili juaj" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Auto Shop. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+
+    <div class="quick-contact">
+        <a href="tel:+3554XXXXXXX" class="quick-btn phone"><i class="fas fa-phone"></i></a>
+        <a href="https://wa.me/3556XXXXXXX" class="quick-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="quick-btn messenger"><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+</body>
+</html>

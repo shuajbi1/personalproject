@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blerja e Makines Online</title>
+    <link rel="stylesheet" href="blej.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="car logo.avif" alt="Auto Shop Logo" />
+                <span class="page-title">Auto Shop</span>
+            </div>
+            <nav class="navbar">
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Produktet</a>
+                    <a href="about.html">Rreth Nesh</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="purchase-form-section">
+        <h1>Blerja e Makines</h1>
+        <p>Plotësoni formularin më poshtë për të blerë makinën tuaj online.</p>
+
+        <form class="purchase-form">
+            <div class="form-group">
+                <label for="full-name">Emri dhe Mbiemri:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Shkruani emrin tuaj" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Shkruani email-in tuaj" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Numri i Telefonit:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Shkruani numrin tuaj të telefonit" required>
+            </div>
+
+            <div class="form-group">
+                <label for="car-model">Modeli i Makinës:</label>
+                <select id="car-model" name="car-model" required>
+                    <option value="audi-a4">Porche 911</option>
+                    <option value="bmw-m4">BMW M4</option>
+                    <option value="mercedes-c-class">Mercedes C-Class</option>
+                    <option value="toyota-corolla">Audi RSQ6</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="payment-method">Metoda e Pagesës:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit-card">Kartë Krediti</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Transfer Bankar</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="delivery-address">Adresa e Dorëzimit:</label>
+                <textarea id="delivery-address" name="delivery-address" placeholder="Shkruani adresën tuaj" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Dërgo Porosinë</button>
+        </form>
+    </section>
+
+</body>
+</html>
